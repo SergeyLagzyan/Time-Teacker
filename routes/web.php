@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 
 Route::get('/admin/roles','admin\RolesController@index');
+Route::get('/profile','ProfileController@index');
 
 Auth::routes();
 
